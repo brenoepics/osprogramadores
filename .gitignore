@@ -8,3 +8,4 @@ TODOs.md
 .idea/
 .vitepress/dist/
 package-lock.json
+/.vitepress/.temp
