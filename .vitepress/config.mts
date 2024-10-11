@@ -27,7 +27,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         ['meta', {name: 'theme-color', content: '#0089D3'}],
         ['meta', {property: 'og:url', content: 'https://github.com/brenoepics/osprogramadores'}],
         ['meta', {property: 'og:type', content: 'Repository'}],
-        ['meta', {property: 'og:title', content: 'Os Progragadores'}],
+        ['meta', {property: 'og:title', content: 'Os Programadores'}],
         [
             'meta',
             {
