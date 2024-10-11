@@ -2,9 +2,9 @@ import path from 'node:path';
 import fs from 'node:fs';
 import matter from 'gray-matter';
 
-const srcDir = path.resolve('./src');
-const navOutputFilePath = '../.vitepress/generatedNav.ts';
-const sidebarOutputFilePath = '../.vitepress/generatedSidebar.ts';
+const srcDir = path.resolve('src');
+const navOutputFilePath = path.resolve('.vitepress/generatedNav.ts');
+const sidebarOutputFilePath = path.resolve('.vitepress/generatedSidebar.ts');
 
 function getFiles(dir, fileList = {}) {
     const files = fs.readdirSync(dir);
