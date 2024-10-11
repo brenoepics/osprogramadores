@@ -3,27 +3,26 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  icon: 🛠️
+  name: "Os Programadores"
+  text: "Aprenda algo novo"
+  tagline: "Tudo que você sempre quis saber sobre Programação de Computadores e nunca teve coragem de perguntar."
+  icon:
+    src: ./img/logo.png
+    alt: Logo
   image:
-    src: ./bg.svg
+    src: ./img/template-easy-customize.png
     alt: Banner
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: FAQ
+      link: /faq
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Blog
+      link: /blog/
+    - theme: alt
+      text: Podcast
+      link: /podcast/
 ---
 
+<HomeLatestPosts blogPath="/blog/" title="Artigos Recentes" limit="12" />
+<HomeLatestPosts blogPath="/podcast/" title="Podcasts Recentes" limit="6" />

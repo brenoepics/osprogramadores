@@ -1,38 +1,61 @@
-import { defineConfigWithTheme } from 'vitepress'
-import type { ThemeConfig } from 'vitepress-carbon'
+import {defineConfigWithTheme} from 'vitepress'
+import type {ThemeConfig} from 'vitepress-carbon'
 import baseConfig from 'vitepress-carbon/config'
+import {sidebar} from "./generatedSidebar";
+import {nav} from "./generatedNav";
+import {TelegramIcon} from "./theme/components/icons/TelegramIcon";
 
 // https://vitepress.dev/reference/site-config
+const baseUrl = '/osprogramadores/'
 export default defineConfigWithTheme<ThemeConfig>({
-  extends: baseConfig,
-  title: "My Awesome Project",
-  description: "A VitePress Site",
-  srcDir: 'src',
-  //base: '/vitepress-carbon-template/', if running on github-pages, set repository name here
-
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    search: {
-      provider: 'local'
+    extends: baseConfig,
+    title: "OsProgramadores",
+    description: "Tudo que você sempre quis saber sobre Programação de Computadores e nunca teve coragem de perguntar.",
+    srcDir: 'src',
+    base: baseUrl,
+    lastUpdated: true,
+    cleanUrls: true,
+    metaChunk: true,
+    sitemap: {
+        hostname: 'https://brenoepics.github.io' + baseUrl,
+        transformItems(items) {
+            return items.filter((item) => !item.url.includes('migration'))
+        }
     },
-    
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+    head: [
+        ['link', {rel: 'icon', href: baseUrl + 'img/favicon.ico'}],
+        ['meta', {name: 'theme-color', content: '#0089D3'}],
+        ['meta', {property: 'og:url', content: 'https://github.com/brenoepics/osprogramadores'}],
+        ['meta', {property: 'og:type', content: 'Repository'}],
+        ['meta', {property: 'og:title', content: 'Os Progragadores'}],
+        [
+            'meta',
+            {
+                property: 'og:description',
+                content: 'Os Programadores - Tudo que você sempre quis saber sobre Programação de Computadores e nunca teve coragem de perguntar.'
+            }
         ]
-      }
     ],
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: nav,
+        lastUpdated: {
+            text: 'Publicado em',
+            formatOptions: {
+                dateStyle: 'medium',
+                timeStyle: 'medium'
+            }
+        },
+        logo: '/img/logo.png',
+        search: {
+            provider: 'local'
+        },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/brenoepics/vitepress-carbon' }
-    ]
-  }
+        sidebar: sidebar,
+
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/brenoepics/vitepress-carbon'},
+            {icon: {svg: TelegramIcon}, link: 'https://t.me/osprogramadores'}
+        ]
+    }
 })

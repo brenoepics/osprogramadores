@@ -1,14 +1,20 @@
 {
-  "name": "vitepress-carbon-template",
-  "version": "0.0.1",
-  "description": "VitePress Carbon Template",
+  "name": "osprogramadores-vitepress-carbon",
+  "version": "1.0.0",
+  "description": "Site do OSProgramadores reescrito com VitePress e tema Carbon",
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "generate": "node scripts/generateNav.js",
+    "docs:dev": "npm run generate && vitepress dev",
+    "docs:build": "npm run generate && vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "vitepress": "^1.4.0",
     "vitepress-carbon": "^1.4.5",
-    "vitepress": "^1.4.0"
+    "vue": "^3.5.11"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
   }
 }

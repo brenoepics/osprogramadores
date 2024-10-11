@@ -1,0 +1,10 @@
+:root {
+    --vp-c-brand-1: #25a6ba;
+    --vp-c-brand-2: #79cad8;
+    --vp-c-brand-3: #265763;
+    --mktg-accent-primary: var(--vp-c-brand-1);
+    --mktg-accent-secondary: var(--vp-c-brand-1);
+    --vp-button-brand-bg: var(--vp-c-brand-1);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+    --vp-button-brand-active-bg: var(--vp-c-brand-3);
+}

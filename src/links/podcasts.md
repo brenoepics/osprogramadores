@@ -1,0 +1,74 @@
+---
+layout: LinkLayout
+title: "Podcasts"
+
+sources:
+- url: "https://anchor.fm/osprogramadores"
+  title: "OsProgramadores"
+  description: "Podcast oficial do grupo OsProgramadores. Entrevistas e discussões relacionadas a programação e tecnologia em geral"
+
+- url: "https://anchor.fm/akitando"
+  title: "Akitando"
+  description: "Podcast com conteúdo complementar ao canal de YouTube Akitando"
+
+- url: "http://labs.bluesoft.com.br/category/podcast/"
+  title: "BlueSoft"
+  description: "Podcast sobre desenvolvimento ágil, software e tecnologia, apresentado por André Faria, Luiz Farias Jr. e toda a equipe da Bluesoft"
+
+- url: "http://castalio.info/"
+  title: "Castalio"
+  description: "O Castálio é um podcast semanal, publicado todas as segundas às 11 horas. Og, Elyézer e Bruno falam sobre tecnologia, desenvolvimento de software, linguagens de programação e o mundo do Open Source!"
+
+- url: "https://www.datahackers.com.br/podcast"
+  title: "DataHackers Podcast"
+  description: "Podcast semanal sobre DataScience e Carreira"
+
+- url: "http://devnaestrada.com.br/"
+  title: "DEVNAESTRADA"
+  description: "Podcast semanal sobre programação"
+  
+- url: "https://diolinux.com.br/diocast"
+  title: "Diocast"
+  description: "Podcast sobre linux e tecnologia"
+
+- url: "https://anchor.fm/emilias-podcast"
+  title: "Emílias Podcast - Mulheres na Computação"
+  description: "Este podcast entrevista mulheres que trabalham na área de Computação"
+
+- url: "http://fronteirases.github.io/"
+  title: "Fronteiras da Engenharia de Software"
+  description: "Um podcast para refletir sobre o presente e futuro da engenharia de software"
+
+- url: "http://hipsters.tech/"
+  title: "Hipsters Tech"
+  description: "Debates sobre temas relacionados a programação e computação"
+
+- url: "https://www.lambda3.com.br/lambda3-podcast/"
+  title: "Lambda3"
+  description: "Podcast sobre assuntos técnicos e não técnicos criado pela empresa Lambda3"
+
+- url: "https://jovemnerd.com.br/playlist/nerdtech/"
+  title: "Nerd Tech"
+  description: "Podcast fruto da parceria entre o Nerdcast e o pessoal da Alura"
+
+- url: "https://pizzadedados.com/"
+  title: "Pizza de Dados"
+  description: "O podcast Brasileiro sobre Ciência de Dados"
+
+- url: "https://mundopodcast.com.br/podprogramar/"
+  title: "PodProgramar"
+  description: "Podcast apresentado por desenvolvedoras focado em programação, notícias e histórias. Tudo com o toque feminino numa área dominada por homens"
+
+- url: "https://anchor.fm/adolfont"
+  title: "Podcast do Professor Adolfo Neto"
+  description: "Neste podcast, eu entrevisto profissionais da área da computação e de áreas próximas."
+
+- url: "https://soundcloud.com/concretebr"
+  title: "Prodcast"
+  description: "Prodcast é o podcast da empresa concrete com vários assuntos técnicos, agilidade, cloud e soft skills"
+
+- url: "https://quebradev.com.br/"
+  title: "QuebraDev"
+  description: "Um podcast de origem periférica e com destino voltado à origem"
+
+---
