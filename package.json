@@ -4,7 +4,7 @@
   "description": "Site do OSProgramadores reescrito com VitePress e tema Carbon",
   "type": "module",
   "scripts": {
-    "generate": "node scripts/generateNav.js",
+    "generate": "node scripts/generateNav.mjs",
     "docs:dev": "npm run generate && vitepress dev",
     "docs:build": "npm run generate && vitepress build",
     "docs:preview": "vitepress preview"
