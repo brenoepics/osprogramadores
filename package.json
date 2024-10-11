@@ -9,7 +9,7 @@
     "docs:build": "pnpm run generate && pnpm vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "packageManager": "^pnpm@9.12.1",
+  "packageManager": "pnpm@9.12.1",
   "dependencies": {
     "vitepress": "^1.4.0",
     "vitepress-carbon": "^1.4.5",
