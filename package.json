@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/generateNav.mjs",
-    "docs:dev": "npm run generate && vitepress dev",
-    "docs:build": "npm run generate && vitepress build",
+    "docs:dev": "pnpm run generate && pnpm vitepress dev",
+    "docs:build": "pnpm run generate && pnpm vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "packageManager": "^pnpm@9.12.1",
   "dependencies": {
     "vitepress": "^1.4.0",
     "vitepress-carbon": "^1.4.5",
