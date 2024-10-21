@@ -12,8 +12,8 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0(@algolia/client-search@4.24.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.3)
       vitepress-carbon:
-        specifier: ^1.4.5
-        version: 1.4.5(@algolia/client-search@4.24.0)(focus-trap@7.6.0)(search-insights@2.17.2)(typescript@5.6.3)
+        specifier: ^1.4.6
+        version: 1.4.6(@algolia/client-search@4.24.0)(focus-trap@7.6.0)(search-insights@2.17.2)(typescript@5.6.3)
       vue:
         specifier: ^3.5.11
         version: 3.5.11(typescript@5.6.3)
@@ -871,8 +871,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-carbon@1.4.5:
-    resolution: {integrity: sha512-EItOg5lFwcKHVIaFdha9zVE7TiBg7CaOdjekOYTG8CozqMdYtDzgPr8i8Xvs/MVfqx3LOKo1P2CPJaeCkHf5ZA==}
+  vitepress-carbon@1.4.6:
+    resolution: {integrity: sha512-2hYIfQor/b1JZuJ85ejiqNF6KKELXfz0+sJHcEIBNZzRuEodoGxfkBYxXHU4cqBYOh9+9ikc7U4xhVS5XvGVJQ==}
 
   vitepress@1.4.0:
     resolution: {integrity: sha512-JXCv4EsKTDyAFb6C/UjZr7nsGAzZ6mafVk2rx7rG5o8N+B/4QstIk+iEOe/9dKoU6V624UIC6g1pZ+K63rxhlw==}
@@ -1756,7 +1756,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-carbon@1.4.5(@algolia/client-search@4.24.0)(focus-trap@7.6.0)(search-insights@2.17.2)(typescript@5.6.3):
+  vitepress-carbon@1.4.6(@algolia/client-search@4.24.0)(focus-trap@7.6.0)(search-insights@2.17.2)(typescript@5.6.3):
     dependencies:
       '@clack/prompts': 0.7.0
       '@docsearch/css': 3.6.2
